@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #494d5a;
+  padding-top: 20px;
+  color: white;
+}
+header {
+  border: 3px solid black;
+  font-size: 2rem;
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: default;
+}
+header h1 {
+  position: relative;
+}
+header img {
+  width: 82px;
+  position: relative;
+  right: 181px;
+  top: 80px;
+}
+#setting {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("chrome://global/skin/icons/settings.svg");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: 0px;
+  position: relative;
+  float: right;
+  bottom: 134px;
+}
+
+/* Main */
+
+/*  Search bar*/
+main {
+  border: 3px solid black;
+  text-align: center;
+}
+main input {
+  border-radius: 10px;
+  width: 666px;
+  height: 53px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-image: url("images/google.svg");
+  background-repeat: no-repeat;
+}
+main input::placeholder {
+  text-align: right;
+}
+
