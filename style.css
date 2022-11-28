@@ -57,4 +57,36 @@ main input {
 main input::placeholder {
   text-align: right;
 }
-
+/*  Pins*/
+.pin{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+.pin ul{
+  text-decoration: none;
+}
+.pin li{
+  display: inline-block;
+  margin-left: 10px;
+}
+.logo-space{
+  height: 120px;
+  width: 148px;
+  background-size: cover;
+  border-radius: 10px;
+  background-color: grey;
+  padding: 10px;
+}
+#youtube{
+  background-image: url('images/youtube.svg');
+}
+#google{
+  background-image: url('images/google.svg');
+}
+#gmail{
+  background-image: url('images/gmail.svg');
+}
+#meet{
+  background-image: url('images/meet.svg  ');
+}
