@@ -71,22 +71,14 @@ main input::placeholder {
   margin-left: 10px;
 }
 .logo-space{
-  height: 120px;
-  width: 148px;
-  background-size: cover;
+  height: 86px;
+  width: 112px;
   border-radius: 10px;
   background-color: grey;
   padding: 10px;
+  overflow: hidden;
 }
-#youtube{
-  background-image: url('images/youtube.svg');
-}
-#google{
-  background-image: url('images/google.svg');
-}
-#gmail{
-  background-image: url('images/gmail.svg');
-}
-#meet{
-  background-image: url('images/meet.svg  ');
+.logo-space img{
+  width: 92px;
+
 }
