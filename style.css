@@ -10,7 +10,7 @@ body {
   color: white;
 }
 header {
-  border: 3px solid black;
+
   font-size: 2rem;
   position: relative;
   text-align: center;
@@ -42,8 +42,8 @@ header img {
 
 /*  Search bar*/
 main {
-  border: 3px solid black;
   text-align: center;
+  padding: 49px;
 }
 main input {
   border-radius: 10px;
@@ -60,7 +60,7 @@ main input::placeholder {
 /*  Pins*/
 .pin{
   display: flex;
-  margin-top: 10px;
+  margin-top: 30px;
   justify-content: space-around;
 }
 .pin ul{
@@ -81,4 +81,38 @@ main input::placeholder {
 .logo-space img{
   width: 92px;
 
+
+}
+/*  Posters*/
+#poster{
+  padding: 10px;
+  border:3px solid black;
+}
+
+.posts{
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.post-body{
+  border-radius: 10px;
+  width: 313px;
+  padding-top: 5px;
+  background-color: grey;
+}
+.image{
+  width: 300px;
+  border-radius: 10px;
+}
+.image img{
+  width: 300px;
+  border-start-start-radius: 10px;
+  border-start-end-radius: 10px;
+  position: relative;
+  left: 6px;
+}
+.text h2{
+font-size: 16pt;
+text-align: center;
 }
